@@ -15,21 +15,43 @@ footer {
   padding-top: 20px;
 }
 
+.footer-bar {
+  display: flex;
+  flex-direction: column;
+}
+
 .logo-title {
   font-family: "Shrikhand", cursive;
   font-weight: 300;
 }
 
-.footer-details {
+.footer-box {
   margin-top: 20px;
-}
-
-.footer-details p {
-  margin-bottom: 10px;
 }
 
 .footer-icons {
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-box p {
+  margin-bottom: 10px;
+}
+
+.footer-icons p {
+  display: flex;
+  text-align: end;
+}
+
+.footer-icons i {
+  padding-right: 8px;
+}
+
+.fa-handshake-angle {
+  font-size: 70%;
+  margin-top: 3px;
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=main.css.map */
