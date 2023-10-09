@@ -2,4 +2,18 @@
 Footer spec*/
 
 footer {margin:0;
-background: #353535;}
+background: #353535;
+color: white;
+padding-left: 20px;
+padding-top: 20px;
+}
+
+.logo-title {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 300;
+}
+
+.footer-details {
+    margin-top: 20px;
+}
+.footer-details p { margin-bottom: 10px;}
