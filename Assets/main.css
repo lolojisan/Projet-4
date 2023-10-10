@@ -48,8 +48,6 @@ input::placeholder {
 }
 
 /* Footer */
-/*Footer
-Footer spec*/
 footer {
   margin: 0;
   background: #353535;
@@ -57,19 +55,24 @@ footer {
   padding-left: 20px;
   padding-top: 20px;
 }
-
-.footer-bar {
+footer .footer-bar {
   display: flex;
   flex-direction: column;
 }
-
-.logo-title {
+footer .footer-bar .logo-title {
   font-family: "Shrikhand", cursive;
   font-weight: 300;
+}
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer-box {
   margin-top: 20px;
+}
+.footer-box p {
+  margin-bottom: 10px;
 }
 
 .footer-icons {
@@ -77,16 +80,10 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
-.footer-box p {
-  margin-bottom: 10px;
-}
-
 .footer-icons p {
   display: flex;
   text-align: end;
 }
-
 .footer-icons i {
   padding-right: 8px;
 }
@@ -99,11 +96,6 @@ footer {
 
 .footer-txt {
   font-weight: 300;
-}
-
-footer a {
-  text-decoration: none;
-  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
