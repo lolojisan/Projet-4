@@ -9,7 +9,6 @@ nav {
   display: flex;
   border: white;
 }
-
 nav img {
   display: block;
   width: 50%;
@@ -31,6 +30,10 @@ nav img {
   box-shadow: inset 0 5px 9px -7px rgba(0, 0, 0, 0.4);
 }
 
+.fa-location-dot {
+  color: #353535;
+}
+
 input {
   border: none;
   background: #EAEAEA;
@@ -40,10 +43,6 @@ input {
 input::placeholder {
   font-weight: bold;
   font-size: large;
-  color: #353535;
-}
-
-.fa-location-dot {
   color: #353535;
 }
 
