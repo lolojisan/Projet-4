@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    border: white;
+    
+    
+}
+
+nav img {
+    display: block;
+    width: 50%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    background-color: #EAEAEA;
+    gap: 15px;
+
+}
+input {
+    border: none;
+    background: #EAEAEA;
+    padding: 8px;
+}
+input::placeholder {
+    font-weight: bold;
+    font-size: large;
+    color: #353535;
+}
+.fa-location-dot {
+    color: #353535;
+}
