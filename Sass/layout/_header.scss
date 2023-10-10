@@ -29,9 +29,9 @@ input {
     border: none;
     background: #EAEAEA;
     padding: 8px;
-}
-input::placeholder {
-    font-weight: bold;
-    font-size: large;
-    color: #353535;
+    &::placeholder {
+        font-weight: bold;
+        font-size: large;
+        color: #353535;
+    }
 }
