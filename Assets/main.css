@@ -30,7 +30,7 @@ footer {
 }
 
 .footer-icons {
-  font-weight: 600;
+  font-weight: 500;
   display: flex;
   flex-direction: column;
 }
@@ -52,6 +52,15 @@ footer {
   font-size: 70%;
   margin-top: 3px;
   transform: scale(1.2);
+}
+
+.footer-txt {
+  font-weight: 300;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
