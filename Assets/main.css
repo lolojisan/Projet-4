@@ -45,6 +45,7 @@ nav a .fa-arrow-left {
 }
 
 input {
+  outline: none;
   border: none;
   background: #EAEAEA;
   padding: 8px;
