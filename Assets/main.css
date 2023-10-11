@@ -4,11 +4,12 @@
 }
 
 .explo-box {
+  background-color: rgba(246, 246, 246, 0.9647058824);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 .explo-box h1 {
   text-align: center;
@@ -141,6 +142,38 @@ footer a {
 }
 .explo-btn:hover {
   background: linear-gradient(#ff91e0, #9a65da);
+}
+
+/*Exploration*/
+.explo-box {
+  background-color: rgba(246, 246, 246, 0.9647058824);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.explo-box h1 {
+  text-align: center;
+  font-size: 1.7em;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.explo-box p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: large;
+  font-weight: 300;
+}
+
+/*Fonctionnement*/
+.main-rulesbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.main-rulesbox h2 {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

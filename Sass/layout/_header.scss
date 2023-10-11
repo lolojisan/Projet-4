@@ -29,7 +29,7 @@ nav {
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #EAEAEA;
+    background-color: $lighter-grey;
     gap: 15px;
     box-shadow: inset 0 5px 9px -7px rgba(0,0,0,0.4)
     }
@@ -38,7 +38,7 @@ nav {
     }
 input {
     border: none;
-    background: #EAEAEA;
+    background: $lighter-grey;
     padding: 8px;
     &::placeholder {
         font-weight: bold;
