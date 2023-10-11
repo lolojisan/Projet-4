@@ -1,11 +1,14 @@
 /*Main*/
-* {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-  }
+@import "./layout/main-container";
+
+/*Mixins*/
+@import "./Utils/mixins";
+
 
 /* Header */
+
 @import "./layout/_header";
 
 /* Footer */
+
 @import "./layout/_footer";

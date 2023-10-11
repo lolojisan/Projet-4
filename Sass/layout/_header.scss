@@ -13,9 +13,7 @@ nav {
 }
 
 .search-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
