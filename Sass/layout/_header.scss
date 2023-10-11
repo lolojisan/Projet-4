@@ -1,8 +1,6 @@
 
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     img {
         display: block;
         width: 50%;
