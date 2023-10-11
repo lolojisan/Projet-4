@@ -3,6 +3,26 @@
   margin: 0;
 }
 
+.explo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.explo-box h1 {
+  text-align: center;
+  font-size: 1.7em;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.explo-box p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: large;
+  font-weight: 300;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -103,6 +123,24 @@ footer a {
 
 .footer-txt {
   font-weight: 300;
+}
+
+.explo-btn {
+  background: linear-gradient(#ff79d9, #9356DC);
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.explo-btn:hover {
+  background: linear-gradient(#ff91e0, #9a65da);
 }
 
 /*# sourceMappingURL=main.css.map */
