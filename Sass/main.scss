@@ -1,14 +1,5 @@
-/*Main*/
-@import "./layout/main-container";
-
-/*Mixins*/
+@import "./Utils/variables";
 @import "./Utils/mixins";
-
-
-/* Header */
-
+@import "./layout/main-container";
 @import "./layout/_header";
-
-/* Footer */
-
 @import "./layout/_footer";

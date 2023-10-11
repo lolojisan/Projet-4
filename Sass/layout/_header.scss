@@ -1,14 +1,26 @@
 
 nav {
     display: flex;
-    border: white;
+    justify-content: center;
+    align-items: center;
     img {
         display: block;
         width: 50%;
-        padding-top: 20px;
+        padding-top: 30px;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 15px;
+    }
+    a { 
+        text-decoration: none;
+        color: black;
+        margin-left: 10.5px;
+            .fa-arrow-left {
+                font-size:large;
+                position: absolute;
+                top:4%;
+                left: 1.5em;
+            }
     }
 }
 
