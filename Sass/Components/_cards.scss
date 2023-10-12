@@ -1,0 +1,65 @@
+.restaurants {
+    padding-top: 50px;
+    margin-top: 50px;
+    background-color: $lighter-grey;
+    h2 {
+     margin-left: 20px;
+    margin-bottom: 20px;
+    }
+}
+
+.restaurants-cards {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    width: 100%;
+    justify-content: center;
+    margin-left: 20px;
+        a {
+            width: 90%;
+            background: white;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: black;
+            img {
+            object-fit: cover;
+            object-position: bottom;
+            width: 100%;
+            height: 180px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            }
+            #enchantee {
+            object-position: 0px -155px;
+            }    
+        }
+}
+.card-content {
+    display: flex;
+    margin-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+        h3 {
+            margin-bottom: 5px;
+        }
+        p {
+            font-weight: 300;
+        }
+        i {
+            font-size: x-large;
+            margin-right: 25px;
+            margin-bottom: 10px;
+                &:hover {
+                    background: linear-gradient($color-primary,$color-secundary);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
+                }
+         }
+ }
+
+ 

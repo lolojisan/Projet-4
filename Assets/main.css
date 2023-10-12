@@ -118,10 +118,75 @@ footer a {
   border: none;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .explo-btn:hover {
   background: linear-gradient(#ff91e0, #9a65da);
+}
+
+.restaurants {
+  padding-top: 50px;
+  margin-top: 50px;
+  background-color: rgba(246, 246, 246, 0.9647058824);
+}
+.restaurants h2 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.restaurants-cards {
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  width: 100%;
+  justify-content: center;
+  margin-left: 20px;
+}
+.restaurants-cards a {
+  width: 90%;
+  background: white;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+}
+.restaurants-cards a img {
+  object-fit: cover;
+  object-position: bottom;
+  width: 100%;
+  height: 180px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.restaurants-cards a #enchantee {
+  object-position: 0px -155px;
+}
+
+.card-content {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-content h3 {
+  margin-bottom: 5px;
+}
+.card-content p {
+  font-weight: 300;
+}
+.card-content i {
+  font-size: x-large;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+.card-content i:hover {
+  background: linear-gradient(#9356DC, #ff79d9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 /*Exploration*/
@@ -150,14 +215,14 @@ footer a {
 .main-rulesbox {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .main-rulesbox h2 {
   margin-left: 20px;
   margin-bottom: 20px;
 }
 .main-rulesbox .rules-box {
-  width: 95%;
+  width: 93%;
   display: flex;
   flex-direction: column;
 }
