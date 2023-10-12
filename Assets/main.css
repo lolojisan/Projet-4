@@ -163,6 +163,18 @@ footer a {
 .restaurants-cards a #enchantee {
   object-position: 0px -155px;
 }
+.restaurants-cards i {
+  font-size: x-large;
+  position: relative;
+  left: 300px;
+  bottom: 70px;
+}
+.restaurants-cards i:hover {
+  background: linear-gradient(#9356DC, #ff79d9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 .card-content {
   display: flex;
@@ -177,17 +189,6 @@ footer a {
 }
 .card-content p {
   font-weight: 300;
-}
-.card-content i {
-  font-size: x-large;
-  margin-right: 25px;
-  margin-bottom: 10px;
-}
-.card-content i:hover {
-  background: linear-gradient(#9356DC, #ff79d9);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
 }
 
 /*Exploration*/

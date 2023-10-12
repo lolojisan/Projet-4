@@ -7,6 +7,7 @@
      margin-left: 20px;
     margin-bottom: 20px;
     }
+    
 }
 
 .restaurants-cards {
@@ -36,6 +37,20 @@
             object-position: 0px -155px;
             }    
         }
+        i {
+            font-size: x-large;
+            position: relative;
+            left: 300px;
+            bottom: 70px;
+                &:hover {
+                    background: linear-gradient($color-primary,$color-secundary);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
+                }
+         }
+        
+        
 }
 .card-content {
     display: flex;
@@ -50,17 +65,7 @@
         p {
             font-weight: 300;
         }
-        i {
-            font-size: x-large;
-            margin-right: 25px;
-            margin-bottom: 10px;
-                &:hover {
-                    background: linear-gradient($color-primary,$color-secundary);
-                    background-clip: text;
-                    -webkit-background-clip: text;
-                    color: transparent;
-                }
-         }
+        
  }
-
+ 
  
