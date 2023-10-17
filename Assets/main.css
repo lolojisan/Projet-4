@@ -6,6 +6,7 @@
   background: #EAEAEA;
 }
 .main-restaurant img {
+  margin-top: 13px;
   width: 100%;
   transform: scale(1.1);
 }
@@ -115,7 +116,7 @@ nav img {
   padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 nav a {
   text-decoration: none;
