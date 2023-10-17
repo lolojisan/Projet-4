@@ -208,11 +208,6 @@ footer a {
   font-weight: 300;
 }
 
-@media (min-width: 768px) {
-  nav img {
-    width: 20%;
-  }
-}
 .explo-btn {
   background: linear-gradient(#ff79d9, #9356DC);
   border-radius: 25px;
@@ -319,6 +314,11 @@ footer a {
   font-weight: 300;
 }
 
+@media (min-width: 768px) {
+  nav img {
+    width: 20%;
+  }
+}
 /*Exploration*/
 .explo-box {
   background-color: rgba(246, 246, 246, 0.9647058824);
