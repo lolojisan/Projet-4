@@ -6,7 +6,6 @@
 @import "./layout/_footer";
 @import "./Components/buttons";
 @import "./Components/cards";
-@import "./Base/queries";
 
 
 /*Exploration*/
@@ -94,4 +93,20 @@
                     color: $color-primary;
                 }
         }
+}
+
+/* Media queries tablette*/
+
+@media (min-width:768px) {
+        nav {
+            img {
+                width: 20%;
+            }
+        }
+    .main-rulesbox {
+        width: 100%;
+            .rules-box {
+                flex-direction: row;
+            }
+    }
 }

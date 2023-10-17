@@ -314,11 +314,6 @@ footer a {
   font-weight: 300;
 }
 
-@media (min-width: 768px) {
-  nav img {
-    width: 20%;
-  }
-}
 /*Exploration*/
 .explo-box {
   background-color: rgba(246, 246, 246, 0.9647058824);
@@ -405,6 +400,19 @@ footer a {
 }
 .box:hover i {
   color: #9356DC;
+}
+
+/* Media queries tablette*/
+@media (min-width: 768px) {
+  nav img {
+    width: 20%;
+  }
+  .main-rulesbox {
+    width: 100%;
+  }
+  .main-rulesbox .rules-box {
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
