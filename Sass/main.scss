@@ -1,11 +1,13 @@
 @import "./Utils/variables";
 @import "./Utils/mixins";
+@import "./Base/queries";
 @import "./layout/restaurant";
 @import "./layout/main-container";
 @import "./layout/_header";
 @import "./layout/_footer";
 @import "./Components/buttons";
 @import "./Components/cards";
+
 
 /*Exploration*/
 .explo-box {
