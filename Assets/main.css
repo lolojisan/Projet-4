@@ -106,6 +106,10 @@
   overflow-x: hidden;
 }
 
+#palette * {
+  overflow-x: visible;
+}
+
 nav {
   display: flex;
   justify-content: center;
