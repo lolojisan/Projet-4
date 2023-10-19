@@ -230,7 +230,7 @@
             .rules-box {
                 gap: 10px;
                 justify-content: center;
-                margin-left: -10px;
+                margin-left: -5px;
                 .box {
                     p {
                         font-size: small;
@@ -339,8 +339,7 @@
         h2 {
             margin-left: 310px;
             &::after {
-                width: 5.5%;
-                
+                width: 5.5%;  
             }
         }
         .menu-txt {
@@ -350,12 +349,18 @@
             width: 55%;
         }
     }
+    #bottom {
+        padding-bottom: 180px;
+    }
     .command {
         background: $grey;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding-right: 390.5px;
-        padding-left: 390.5px;
+        margin-top: -100px;
+        margin-bottom: 0;
+        margin-right: 14px;
+        margin-left: 14px;
+    }
+    .explo-btn {
+        margin-top: 0;
     }
 }
 /*Media Queries Large Desktop */
@@ -447,12 +452,27 @@
         }
     }
     /*Pages restaurants*/
+    .menu-content {
+        h2 {
+            margin-left: 415px;
+            &::after {
+                width: 4%;  
+            }
+        }
+        
+    }
+    #bottom {
+        padding-bottom: 180px;
+    }
     .command {
         background: $grey;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding-right: 544px;
-        padding-left: 544px;
+        margin-top: -100px;
+        margin-bottom: 0;
+        margin-right: 14px;
+        margin-left: 14px;
+    }
+    .explo-btn {
+        margin-top: 0;
     }
 }
 

@@ -524,7 +524,7 @@ footer a {
   .main-rulesbox .rules-box {
     gap: 10px;
     justify-content: center;
-    margin-left: -10px;
+    margin-left: -5px;
   }
   .main-rulesbox .rules-box .box p {
     font-size: small;
@@ -638,12 +638,18 @@ footer a {
     margin-right: auto;
     width: 55%;
   }
+  #bottom {
+    padding-bottom: 180px;
+  }
   .command {
     background: #EAEAEA;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-right: 390.5px;
-    padding-left: 390.5px;
+    margin-top: -100px;
+    margin-bottom: 0;
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+  .explo-btn {
+    margin-top: 0;
   }
 }
 /*Media Queries Large Desktop */
@@ -728,12 +734,24 @@ footer a {
     padding-right: 80px;
   }
   /*Pages restaurants*/
+  .menu-content h2 {
+    margin-left: 415px;
+  }
+  .menu-content h2::after {
+    width: 4%;
+  }
+  #bottom {
+    padding-bottom: 180px;
+  }
   .command {
     background: #EAEAEA;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-right: 544px;
-    padding-left: 544px;
+    margin-top: -100px;
+    margin-bottom: 0;
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+  .explo-btn {
+    margin-top: 0;
   }
 }
 
