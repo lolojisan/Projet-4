@@ -106,8 +106,9 @@
   overflow-x: hidden;
 }
 
-#palette * {
-  overflow-x: visible;
+.overflow * {
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 nav {
@@ -409,14 +410,209 @@ footer a {
 
 /* Media queries tablette*/
 @media (min-width: 768px) {
+  /* Nav*/
   nav img {
     width: 20%;
+    margin-bottom: 35px;
+    padding-top: 35px;
   }
+  nav a .fa-arrow-left {
+    top: 3%;
+  }
+  /*Exploration*/
+  .explo-box h1 {
+    font-size: 2.2em;
+    font-weight: 900;
+  }
+  .explo-box p {
+    font-size: medium;
+  }
+  .explo-btn {
+    margin-bottom: 30px;
+  }
+  /*Filtres*/
   .main-rulesbox {
     width: 100%;
   }
+  .main-rulesbox h2 {
+    margin-left: 76px;
+  }
   .main-rulesbox .rules-box {
+    width: 100%;
     flex-direction: row;
+    margin-left: 55px;
+    gap: 10px;
+  }
+  .main-rulesbox .rules-box .box {
+    padding-right: 50px;
+    margin-left: 0;
+    gap: 20px;
+  }
+  .main-rulesbox .rules-box .liste {
+    top: 18px;
+    left: 19px;
+  }
+  .main-rulesbox .rules-box .fa-mobile-screen {
+    padding-right: 0;
+  }
+  .main-rulesbox .rules-box .fa-list {
+    padding-right: 9.5px;
+  }
+  .main-rulesbox .rules-box .fa-store {
+    padding-right: 3px;
+  }
+  /*Cards*/
+  .restaurants h2 {
+    margin-left: 76px;
+  }
+  .restaurants-cards {
+    margin-left: 76px;
+    width: 93.5%;
+  }
+  .restaurants-cards a img {
+    object-position: center;
+    height: 260px;
+  }
+  .restaurants-cards a #enchantee {
+    object-position: 0px -455px;
+  }
+  .restaurants-cards a #fraise {
+    object-position: 0px -230px;
+  }
+  .restaurants-cards a #delice {
+    object-position: 0px -260px;
+  }
+  .restaurants-cards i {
+    left: 800px;
+    font-size: xx-large;
+  }
+  /*Pages restaurants*/
+  .restaurants-menu {
+    justify-content: center;
+  }
+  .menu-content {
+    width: 80%;
+  }
+  .menu-content h2::after {
+    width: 7.2%;
+  }
+}
+/*Media Queries Desktop */
+@media (min-width: 1280px) {
+  /* Nav*/
+  nav img {
+    width: 10%;
+    margin-bottom: 35px;
+    padding-top: 35px;
+  }
+  nav a .fa-arrow-left {
+    top: 4%;
+  }
+  input::placeholder {
+    font-size: 16px;
+  }
+  /*Filtres*/
+  .main-rulesbox {
+    transform: scale(1.5);
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+  .main-rulesbox h2 {
+    margin-left: 530px;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .main-rulesbox .rules-box {
+    gap: 10px;
+    justify-content: center;
+    margin-left: -10px;
+  }
+  .main-rulesbox .rules-box .box p {
+    font-size: small;
+    font-weight: 600;
+  }
+  /*Cards*/
+  .restaurants {
+    padding-bottom: 0;
+  }
+  .restaurants h2 {
+    margin-left: 317px;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .restaurants-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 97px;
+    overflow-y: hidden;
+  }
+  .restaurants-cards a {
+    margin-bottom: 50px;
+    width: 36%;
+  }
+  .restaurants-cards a img {
+    object-position: 0px -120px;
+    height: 250px;
+  }
+  .restaurants-cards a #enchantee {
+    object-position: 0px -325px;
+  }
+  .restaurants-cards a #fraise {
+    object-position: 0px -140px;
+  }
+  .restaurants-cards a #delice {
+    object-position: 0px -140px;
+  }
+  .restaurants-cards i {
+    left: -60px;
+    bottom: -275px;
+  }
+  .new .new-box {
+    font-size: 18px;
+    top: 30px;
+    right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /*Footer*/
+  footer {
+    padding-top: 0;
+  }
+  footer .footer-bar {
+    flex-direction: row-reverse;
+    gap: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right: 115px;
+  }
+  footer .footer-bar .logo-title {
+    font-weight: 300;
+    font-size: x-large;
+    padding-right: 5px;
+  }
+  footer .footer-bar .footer-box {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-right: 50px;
+  }
+  footer .footer-bar .footer-icons {
+    flex-direction: row;
+    gap: 10px;
+  }
+  footer .footer-bar .footer-txt {
+    display: flex;
+    gap: 30px;
+  }
+  /*Pages restaurants*/
+  .restaurants-menu {
+    justify-content: center;
+  }
+  .menu-content {
+    width: 80%;
+  }
+  .menu-content h2::after {
+    width: 7.2%;
   }
 }
 

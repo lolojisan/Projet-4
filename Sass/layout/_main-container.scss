@@ -3,6 +3,7 @@
     margin:0;
     overflow-x: hidden;
 }
-#palette * {
-    overflow-x: visible;
+.overflow * {
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
