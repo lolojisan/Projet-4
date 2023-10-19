@@ -699,8 +699,9 @@ footer a {
     object-position: 0px -200px;
   }
   .restaurants-cards i {
-    left: -60px;
-    bottom: -350px;
+    left: -65px;
+    bottom: -355px;
+    padding-right: 3px;
   }
   .new .new-box {
     font-size: 22px;
