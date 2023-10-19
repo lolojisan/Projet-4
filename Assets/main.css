@@ -503,10 +503,10 @@ footer a {
   nav img {
     width: 10%;
     margin-bottom: 35px;
-    padding-top: 35px;
+    padding-top: 40px;
   }
   nav a .fa-arrow-left {
-    top: 4%;
+    top: 5%;
   }
   input::placeholder {
     font-size: 16px;
@@ -605,14 +605,134 @@ footer a {
     gap: 30px;
   }
   /*Pages restaurants*/
+  .main-restaurant {
+    background: white;
+  }
+  .main-restaurant .restaurant-img {
+    object-fit: cover;
+    height: 600px;
+  }
+  .main-restaurant .restaurant-img img {
+    transform: scale(1);
+    object-position: 0px -400px;
+  }
   .restaurants-menu {
     justify-content: center;
+    width: 72%;
   }
   .menu-content {
-    width: 80%;
+    margin-top: 0;
+    padding-top: 50px;
+    width: 72%;
+    margin-bottom: 0;
+  }
+  .menu-content h2 {
+    margin-left: 310px;
   }
   .menu-content h2::after {
-    width: 7.2%;
+    width: 5.5%;
+  }
+  .menu-content .menu-txt {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+  .command {
+    background: #EAEAEA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 394px;
+    padding-left: 394px;
+  }
+}
+/*Media Queries Large Desktop */
+@media (min-width: 1921px) {
+  * {
+    overflow-x: hidden;
+  }
+  /* Nav*/
+  nav img {
+    padding-top: 45px;
+  }
+  nav a .fa-arrow-left {
+    top: 4%;
+  }
+  /*Filtres*/
+  .main-rulesbox {
+    margin-bottom: 100px;
+    transform: scale(2);
+  }
+  .main-rulesbox h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 839px;
+  }
+  /*Cards*/
+  .restaurants {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .restaurants h2 {
+    margin-left: 396px;
+    font-size: 38px;
+    margin-bottom: 50px;
+  }
+  .restaurants-cards {
+    margin-left: 97px;
+  }
+  .restaurants-cards a {
+    margin-bottom: 50px;
+    width: 36%;
+  }
+  .restaurants-cards a img {
+    object-position: 0px -120px;
+    height: 330px;
+  }
+  .restaurants-cards a #enchantee {
+    object-position: 0px -425px;
+  }
+  .restaurants-cards a #fraise {
+    object-position: 0px -180px;
+  }
+  .restaurants-cards a #delice {
+    object-position: 0px -200px;
+  }
+  .restaurants-cards i {
+    left: -60px;
+    bottom: -350px;
+  }
+  .new .new-box {
+    font-size: 22px;
+    top: 40px;
+    right: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  /*Footer*/
+  footer {
+    padding-top: 50px;
+  }
+  footer .footer-bar {
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    margin-right: 115px;
+    gap: 70px;
+  }
+  footer .footer-bar .logo-title {
+    padding-right: 25px;
+  }
+  footer .footer-bar .footer-box {
+    gap: 80px;
+    padding-right: 80px;
+  }
+  /*Pages restaurants*/
+  .command {
+    background: #EAEAEA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 548px;
+    padding-left: 548px;
   }
 }
 

@@ -204,11 +204,11 @@
         img {
             width: 10%;
             margin-bottom: 35px;
-            padding-top: 35px;
+            padding-top: 40px;
         }
         a {
             .fa-arrow-left {
-                top:4%;
+                top:5%;
             }
         }
     }
@@ -315,16 +315,142 @@
         }
     }
     /*Pages restaurants*/
-    .restaurants-menu {
-        justify-content: center;
-    }
-    .menu-content {
-        width: 80%;
-        h2 {
-            &::after {
-                width: 7.2%;
+    .main-restaurant {
+        background: white;
+        .restaurant-img {
+            object-fit: cover;
+            height: 600px;
+            img {
+                transform: scale(1);
+                object-position: 0px -400px;
             }
         }
+    }
+    .restaurants-menu {
+        justify-content: center;
+        width: 72%;
+    }
+    .menu-content {
+        margin-top: 0;
+        padding-top: 50px;
+        width: 72%;
+        margin-bottom: 0;
+        h2 {
+            margin-left: 310px;
+            &::after {
+                width: 5.5%;
+                
+            }
+        }
+        .menu-txt {
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 55%;
+        }
+    }
+    .command {
+        background: $grey;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 394px;
+        padding-left: 394px;
+    }
+}
+/*Media Queries Large Desktop */
+@media (min-width:1921px) {
+    * {
+        overflow-x: hidden;
+    }
+    /* Nav*/
+    nav {
+        img {
+            padding-top: 45px;
+        }
+        a {
+            .fa-arrow-left {
+                top:4%;
+            }
+        }
+    }
+    /*Filtres*/
+    .main-rulesbox {
+        margin-bottom: 100px;
+        transform: scale(2);
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 839px;
+        }
+            
+    }
+    /*Cards*/
+    .restaurants {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        h2 {
+            margin-left: 396px;
+            font-size: 38px;
+            margin-bottom: 50px;
+        }
+    }
+    .restaurants-cards {
+        margin-left: 97px;
+            a {
+                margin-bottom: 50px;
+                width: 36%;
+                img {
+                    object-position: 0px -120px;
+                    height: 330px;
+                }
+                #enchantee {
+                    object-position: 0px -425px;
+                }
+                #fraise {
+                    object-position: 0px -180px;
+                }
+                #delice {
+                    object-position: 0px -200px;
+                }
+            }
+            i {
+                left: -60px;
+                bottom: -350px;
+            }
+    }
+    .new {
+        .new-box {
+            font-size: 22px;
+            top: 40px;
+            right:40px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+    }
+    /*Footer*/
+    footer {
+        padding-top: 50px;
+        .footer-bar {
+            padding-bottom: 30px;
+            margin-bottom: 0;
+            margin-right: 115px;
+            gap: 70px;
+                .logo-title {
+                    padding-right: 25px;
+                }
+            .footer-box {
+                gap:80px;
+                padding-right: 80px;
+            }
+        }
+    }
+    /*Pages restaurants*/
+    .command {
+        background: $grey;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 548px;
+        padding-left: 548px;
     }
 }
 
