@@ -29,6 +29,7 @@ footer {
     display: flex;
     flex-direction: column;
     p {
+        overflow: hidden;
         display: flex;
         text-align: end;
     }
