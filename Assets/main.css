@@ -694,6 +694,9 @@ footer a {
   .explo-box p {
     margin-bottom: 30px;
   }
+  .explo-box .explo-btn {
+    transform: scale(1.5);
+  }
   /*Filtres*/
   .main-rulesbox {
     margin-bottom: 50px;
