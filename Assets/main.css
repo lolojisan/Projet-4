@@ -686,7 +686,7 @@ footer a {
     padding-top: 40px;
   }
   nav a .fa-arrow-left {
-    top: 5%;
+    top: 4%;
   }
   input::placeholder {
     font-size: 16px;
@@ -770,7 +770,7 @@ footer a {
   .restaurants-cards i {
     font-size: xx-large;
     left: -62px;
-    bottom: -275px;
+    bottom: -370px;
   }
   .new .new-box {
     font-size: 18px;
@@ -810,7 +810,6 @@ footer a {
     gap: 30px;
   }
   /*Pages restaurants*/
-  /*Pages restaurants*/
   .main-restaurant {
     background: white;
   }
@@ -834,10 +833,10 @@ footer a {
     padding-bottom: 10px;
   }
   .menu-content h2 {
-    margin-left: 310px;
+    margin-left: 410px;
   }
   .menu-content h2::after {
-    width: 5.5%;
+    width: 4.2%;
   }
   .menu-content .menu-txt {
     justify-content: center;
