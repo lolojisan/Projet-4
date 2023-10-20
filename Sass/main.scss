@@ -97,7 +97,7 @@
 
 /* Media queries tablette*/
 
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width: 1024px) {
     /* Nav*/
     nav {
             img {
@@ -198,7 +198,8 @@
     }
 }
 /*Media Queries Desktop */
-@media (min-width:1280px) {
+@media (min-width:1025px) and (max-width:1920px){
+
     /* Nav*/
     nav {
         img {
@@ -225,24 +226,40 @@
 
     /*Filtres*/
     .main-rulesbox {
-        transform: scale(1.5);
         margin-bottom: 50px;
-        margin-top: 100px;
-        h2 {
-            margin-left: 530px;
-            margin-right: auto;
-            font-size:20px;
-            margin-bottom: 30px;
-        }
+        margin-top: 50px;
+        overflow-y: hidden;
+            h2 {
+                font-size: 30px;
+                margin-left: 240px;
+                margin-bottom: 50px;
+            }
             .rules-box {
-                gap: 10px;
+                transform: scale(1.7);
+                flex-direction: row;
                 justify-content: center;
-                margin-left: -5px;
+                margin-left: 5px;
                 .box {
                     p {
-                        font-size: small;
-                        font-weight: 600;
+                    font-size: small;
+                    font-weight: 600;
+                    padding-right: 30px;
+                    margin-left: -10px;
                     }
+                    .fa-mobile-screen {
+                        padding-left: 24px;
+                        padding-right: 0;
+                    }
+                    .fa-list {
+                        margin-right: 2px;
+                    }
+                    .fa-store {
+                        margin-left: -3px;
+                    }
+                }
+                .liste {
+                    top: 20px;
+                    left: 38px;
                 }
             }
     }
@@ -250,7 +267,7 @@
     .restaurants {
         padding-bottom: 0;
         h2 {
-            margin-left: 317px;
+            margin-left: 240px;
             font-size: 30px;
             margin-bottom: 50px;
         }
@@ -258,7 +275,7 @@
     .restaurants-cards {
         flex-direction: row;
         flex-wrap: wrap;
-        margin-left: 97px;
+        margin-left: 0;
         overflow-y: hidden;
             a {
                 margin-bottom: 50px;
@@ -271,14 +288,15 @@
                     object-position: 0px -325px;
                 }
                 #fraise {
-                    object-position: 0px -140px;
+                    object-position: 0px -170px;
                 }
                 #delice {
-                    object-position: 0px -140px;
+                    object-position: 0px -170px;
                 }
             }
-            i {
-                left: -61px;
+            i { 
+                font-size: xx-large;
+                left: -62px;
                 bottom: -275px;
             }
     }
@@ -369,4 +387,177 @@
     .explo-btn {
         margin-top: 0;
     }
+}
+/*For large desktop*/
+@media (min-width: 1921px) {
+* {
+    overflow-x: hidden;
+}
+/* Nav*/
+
+nav {
+    img {
+        width: 10%;
+        margin-bottom: 35px;
+        padding-top: 40px;
+    }
+    a {
+        .fa-arrow-left {
+            top:5%;
+        }
+    }
+}
+input {
+    &::placeholder {
+        font-size:16px;
+    }
+}
+.explo-box {
+    p {
+        margin-bottom: 30px;
+    }
+}
+/*Filtres*/
+.main-rulesbox {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow-y: hidden;
+        h2 {
+            font-size: 30px;
+            margin-left: 320px;
+            margin-bottom: 50px;
+        }
+        .rules-box {
+            transform: scale(2.2);
+            flex-direction: row;
+            justify-content: center;
+            margin-left: 5px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-top: 20px;
+            .box {
+                p {
+                font-size: small;
+                font-weight: 600;
+                padding-right: 30px;
+                margin-left: -10px;
+                }
+                .fa-mobile-screen {
+                    padding-left: 24px;
+                    padding-right: 0;
+                }
+                .fa-list {
+                    margin-right: 2px;
+                }
+                .fa-store {
+                    margin-left: -3px;
+                }
+            }
+            .liste {
+                top: 20px;
+                left: 38px;
+            }
+        }
+}
+/*Cards*/
+.restaurants {
+    padding-bottom: 0;
+    margin-top: 10px;
+    h2 {
+        margin-left: 320px;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+}
+.restaurants-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    overflow-y: hidden;
+        a {
+            margin-bottom: 50px;
+            width: 36%;
+            img {
+                object-position: 0px -120px;
+                height: 350px;
+            }
+            #enchantee {
+                object-position: 0px -435px;
+            }
+            #fraise {
+                object-position: 0px -220px;
+            }
+            #delice {
+                object-position: 0px -220px;
+            }
+        }
+        i { 
+            font-size: xx-large;
+            left: -62px;
+            bottom: -275px;
+        }
+}
+.new {
+    .new-box {
+        font-size: 18px;
+        top: 30px;
+        right:30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/*Footer*/
+footer {
+    padding-top: 0;
+    .footer-bar {
+        flex-direction: row-reverse;
+        gap: 50px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        margin-right: 115px;
+            .logo-title {
+                font-weight: 300;
+                font-size: x-large;
+                padding-right: 5px;
+            }
+        .footer-box {
+            display:flex;
+            flex-direction: row;
+            gap:60px;
+            padding-right: 50px;
+        }
+        .footer-icons {
+            flex-direction: row;
+            gap: 10px;
+        }
+        .footer-txt {
+            display: flex;
+            gap: 30px;
+        }
+    }
+}
+/*Pages restaurants*/
+
+.menu-content {
+    h2 {
+        margin-left: 415px;
+        &::after {
+            width: 4%;  
+        }
+    }
+    
+}
+#bottom {
+    padding-bottom: 180px;
+}
+.command {
+    background: $grey;
+    margin-top: -100px;
+    margin-bottom: 0;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+.explo-btn {
+    margin-top: 0;
+}
 }
