@@ -196,7 +196,6 @@ footer a {
   flex-direction: column;
 }
 .footer-icons p {
-  overflow-y: hidden;
   display: flex;
   text-align: end;
 }
