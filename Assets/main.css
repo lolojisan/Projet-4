@@ -196,6 +196,7 @@ footer a {
   flex-direction: column;
 }
 .footer-icons p {
+  overflow-y: hidden;
   display: flex;
   text-align: end;
 }
@@ -510,6 +511,9 @@ footer a {
   input::placeholder {
     font-size: 16px;
   }
+  .explo-box p {
+    margin-bottom: 30px;
+  }
   /*Filtres*/
   .main-rulesbox {
     transform: scale(1.5);
@@ -518,6 +522,7 @@ footer a {
   }
   .main-rulesbox h2 {
     margin-left: 530px;
+    margin-right: auto;
     font-size: 20px;
     margin-bottom: 30px;
   }
@@ -637,108 +642,6 @@ footer a {
     margin-left: auto;
     margin-right: auto;
     width: 55%;
-  }
-  #bottom {
-    padding-bottom: 180px;
-  }
-  .command {
-    background: #EAEAEA;
-    margin-top: -100px;
-    margin-bottom: 0;
-    margin-right: 14px;
-    margin-left: 14px;
-  }
-  .explo-btn {
-    margin-top: 0;
-  }
-}
-/*Media Queries Large Desktop */
-@media (min-width: 1921px) {
-  * {
-    overflow-x: hidden;
-  }
-  /* Nav*/
-  nav img {
-    padding-top: 45px;
-  }
-  nav a .fa-arrow-left {
-    top: 4%;
-  }
-  /*Filtres*/
-  .main-rulesbox {
-    margin-bottom: 100px;
-    transform: scale(2);
-  }
-  .main-rulesbox h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 839px;
-  }
-  /*Cards*/
-  .restaurants {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  .restaurants h2 {
-    margin-left: 396px;
-    font-size: 38px;
-    margin-bottom: 50px;
-  }
-  .restaurants-cards {
-    margin-left: 97px;
-  }
-  .restaurants-cards a {
-    margin-bottom: 50px;
-    width: 36%;
-  }
-  .restaurants-cards a img {
-    object-position: 0px -120px;
-    height: 330px;
-  }
-  .restaurants-cards a #enchantee {
-    object-position: 0px -425px;
-  }
-  .restaurants-cards a #fraise {
-    object-position: 0px -180px;
-  }
-  .restaurants-cards a #delice {
-    object-position: 0px -200px;
-  }
-  .restaurants-cards i {
-    left: -65px;
-    bottom: -355px;
-    padding-right: 3px;
-  }
-  .new .new-box {
-    font-size: 22px;
-    top: 40px;
-    right: 40px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  /*Footer*/
-  footer {
-    padding-top: 50px;
-  }
-  footer .footer-bar {
-    padding-bottom: 30px;
-    margin-bottom: 0;
-    margin-right: 115px;
-    gap: 70px;
-  }
-  footer .footer-bar .logo-title {
-    padding-right: 25px;
-  }
-  footer .footer-bar .footer-box {
-    gap: 80px;
-    padding-right: 80px;
-  }
-  /*Pages restaurants*/
-  .menu-content h2 {
-    margin-left: 415px;
-  }
-  .menu-content h2::after {
-    width: 4%;
   }
   #bottom {
     padding-bottom: 180px;
