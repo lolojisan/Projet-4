@@ -516,7 +516,7 @@ footer a {
   }
   /*Filtres*/
   .main-rulesbox {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-top: 50px;
     overflow-y: hidden;
   }
@@ -530,6 +530,7 @@ footer a {
     flex-direction: row;
     justify-content: center;
     margin-left: 5px;
+    margin-bottom: 10px;
   }
   .main-rulesbox .rules-box .box p {
     font-size: small;
