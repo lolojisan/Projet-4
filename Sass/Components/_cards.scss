@@ -37,7 +37,7 @@
             object-position: 0px -158px;
             }    
         }
-        i {
+        .heart {
             font-size: x-large;
             position: relative;
             left: 300px;
@@ -45,6 +45,7 @@
                 &:hover {
                     background: linear-gradient($color-primary,$color-secundary);
                     background-clip: text;
+                    font-weight: bold;
                     -webkit-background-clip: text;
                     color: transparent;
                 }

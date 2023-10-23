@@ -27,13 +27,14 @@
   padding-left: 20px;
   font-size: 28px;
 }
-.restaurants-menu i {
+.restaurants-menu .heart {
   font-size: xx-large;
   padding-left: 40px;
 }
-.restaurants-menu i:hover {
+.restaurants-menu .heart:hover {
   background: linear-gradient(#9356DC, #ff79d9);
   background-clip: text;
+  font-weight: bold;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -272,15 +273,16 @@ footer a {
 .restaurants-cards a #enchantee {
   object-position: 0px -158px;
 }
-.restaurants-cards i {
+.restaurants-cards .heart {
   font-size: x-large;
   position: relative;
   left: 300px;
   bottom: 70px;
 }
-.restaurants-cards i:hover {
+.restaurants-cards .heart:hover {
   background: linear-gradient(#9356DC, #ff79d9);
   background-clip: text;
+  font-weight: bold;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -319,6 +321,13 @@ footer a {
 }
 .card-content p {
   font-weight: 300;
+}
+
+.fa-heart:hover {
+  color: linear-gradient(#ff79d9, #9356DC);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 2s linear;
 }
 
 /*Exploration*/
@@ -483,7 +492,7 @@ footer a {
   .restaurants-cards a #delice {
     object-position: 0px -260px;
   }
-  .restaurants-cards i {
+  .restaurants-cards .fa-heart {
     left: 800px;
     font-size: xx-large;
   }
@@ -585,10 +594,11 @@ footer a {
   .restaurants-cards a #delice {
     object-position: 0px -170px;
   }
-  .restaurants-cards i {
+  .restaurants-cards .heart {
     font-size: xx-large;
     left: -62px;
     bottom: -275px;
+    height: 35px;
   }
   .new .new-box {
     font-size: 18px;
@@ -772,10 +782,11 @@ footer a {
   .restaurants-cards a #delice {
     object-position: 0px -220px;
   }
-  .restaurants-cards i {
+  .restaurants-cards .heart {
     font-size: xx-large;
     left: -62px;
     bottom: -370px;
+    height: 35px;
   }
   .new .new-box {
     font-size: 18px;

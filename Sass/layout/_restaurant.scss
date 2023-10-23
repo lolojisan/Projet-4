@@ -21,17 +21,17 @@
         h1 {
             @include section-title;
             }
-        i {
+        .heart {
             font-size: xx-large;
             padding-left: 40px;
             &:hover {
                 background: linear-gradient($color-primary,$color-secundary);
                 background-clip: text;
+                font-weight: bold;
                 -webkit-background-clip: text;
                 color: transparent;
             }
         }
-        
 }
 .menu-content {
     background: $grey;

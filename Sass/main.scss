@@ -6,6 +6,7 @@
 @import "./layout/_footer";
 @import "./Components/buttons";
 @import "./Components/cards";
+@import "./Components/animations";
 
 
 /*Exploration*/
@@ -179,7 +180,7 @@
                     object-position: 0px -260px;
                 }
             }
-            i {
+            .fa-heart {
                 left: 800px;
                 font-size: xx-large;
             }
@@ -295,10 +296,11 @@
                     object-position: 0px -170px;
                 }
             }
-            i { 
+            .heart { 
                 font-size: xx-large;
                 left: -62px;
                 bottom: -275px;
+                height:35px;
             }
     }
     .new {
@@ -496,10 +498,11 @@ input {
                 object-position: 0px -220px;
             }
         }
-        i { 
+        .heart { 
             font-size: xx-large;
             left: -62px;
             bottom: -370px;
+            height: 35px;
         }
 }
 .new {
