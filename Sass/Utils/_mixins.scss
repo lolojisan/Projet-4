@@ -22,3 +22,9 @@
     font-size: 28px;
 }
 
+@mixin fill-heart {
+    color:$gradient-button;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 2s linear;
+}
