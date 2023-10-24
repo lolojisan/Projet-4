@@ -342,9 +342,88 @@ footer a {
   overflow: hidden;
   position: fixed;
   top: 0;
-  z-index: -1;
+  z-index: 100;
+  animation: fadeout 0.2s 3s forwards;
+}
+.loader * {
+  font-family: "Shrikhand", cursive;
+}
+.loader h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.loader span {
+  padding: 5px;
+  font-size: 1em;
+  color: white;
+  animation: drop 0.4s linear forwards;
+  opacity: 0;
+}
+.loader .l1 {
+  animation-delay: 0.2s;
+}
+.loader .l2 {
+  animation-delay: 0.4s;
+}
+.loader .l3 {
+  animation-delay: 0.6s;
+}
+.loader .l4 {
+  animation-delay: 0.8s;
+}
+.loader .l5 {
+  animation-delay: 1s;
+}
+.loader .l6 {
+  animation-delay: 1.2s;
+}
+.loader .l7 {
+  animation-delay: 1.4s;
+}
+.loader .l8 {
+  animation-delay: 1.6s;
 }
 
+@keyframes drop {
+  0% {
+    transform: translateY(-200px) scaleY(0.9);
+  }
+  5% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+  }
+  65% {
+    transform: translateY(-17px) scaleY(0.9);
+  }
+  75% {
+    transform: translateY(-22px) scaleY(0.9);
+  }
+  100% {
+    transform: translateY(0px) scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes fadeout {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 25%;
+  }
+  100% {
+    opacity: 0%;
+    visibility: hidden;
+  }
+}
 /*Exploration*/
 .explo-box {
   background-color: rgba(246, 246, 246, 0.9647058824);
@@ -435,6 +514,11 @@ footer a {
 
 /* Media queries tablette*/
 @media (min-width: 768px) and (max-width: 1024px) {
+  /*Loader font-size*/
+  .loader span {
+    font-size: 2em;
+    padding: 15px;
+  }
   /* Nav*/
   nav img {
     width: 20%;
@@ -524,6 +608,11 @@ footer a {
 }
 /*Media Queries Desktop */
 @media (min-width: 1025px) and (max-width: 1920px) {
+  /*Loader font-size*/
+  .loader span {
+    font-size: 3em;
+    padding: 25px;
+  }
   /* Nav*/
   nav img {
     width: 10%;
@@ -705,6 +794,11 @@ footer a {
 @media (min-width: 1921px) {
   * {
     overflow-x: hidden;
+  }
+  /*Loader font-size*/
+  .loader span {
+    font-size: 3.5em;
+    padding: 30px;
   }
   /* Nav*/
   nav img {

@@ -99,6 +99,13 @@
 /* Media queries tablette*/
 
 @media (min-width:768px) and (max-width: 1024px) {
+    /*Loader font-size*/
+    .loader {
+            span {
+                font-size: 2em;
+                padding: 15px;
+            }
+    }
     /* Nav*/
     nav {
             img {
@@ -200,7 +207,13 @@
 }
 /*Media Queries Desktop */
 @media (min-width:1025px) and (max-width:1920px){
-
+/*Loader font-size*/
+.loader {
+    span {
+        font-size: 3em;
+        padding: 25px;
+    }
+}
     /* Nav*/
     nav {
         img {
@@ -395,6 +408,13 @@
 @media (min-width: 1921px) {
 * {
     overflow-x: hidden;
+}
+/*Loader font-size*/
+.loader {
+    span {
+        font-size: 3.5em;
+        padding: 30px;
+    }
 }
 /* Nav*/
 
