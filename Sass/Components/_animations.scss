@@ -153,29 +153,3 @@ span {
     }
 }
 /*Check plat*/
-.menu-txt:hover {
-    .check {
-        animation: validate 1s ease-in-out;
-        animation-fill-mode: both;
-            .fa-check {
-                animation: rota 1s ease-in-out;
-            }
-    }
-}
-@keyframes validate {
-    from {
-        margin-right: 0rem;
-    }
-    to {
-        margin-right: -0.7rem;
-    }
-}
-
-@keyframes rota {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(-720deg);
-    }
-}

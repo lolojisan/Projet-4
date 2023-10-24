@@ -99,9 +99,6 @@
 .check {
     @include flex-center;
     background-color: $color-third;
-    width: 5rem;
-    margin: -1rem -6rem -1rem -1rem;
-    
 }
 .command {
     @include flex-center;

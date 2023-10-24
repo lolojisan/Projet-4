@@ -109,9 +109,6 @@
   justify-content: center;
   align-items: center;
   background-color: #99E2D0;
-  width: 5rem;
-  margin: -1rem -6rem -1rem -1rem;
-  z-index: -3;
 }
 
 .command {
@@ -506,30 +503,6 @@ footer a {
   }
 }
 /*Check plat*/
-.menu-txt:hover .check {
-  animation: validate 1s ease-in-out;
-  animation-fill-mode: both;
-}
-.menu-txt:hover .check .fa-check {
-  animation: rota 1s ease-in-out;
-}
-
-@keyframes validate {
-  from {
-    margin-right: 0rem;
-  }
-  to {
-    margin-right: -0.7rem;
-  }
-}
-@keyframes rota {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-720deg);
-  }
-}
 /*Exploration*/
 .explo-box {
   background-color: rgba(246, 246, 246, 0.9647058824);
