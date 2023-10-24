@@ -153,3 +153,20 @@ span {
     }
 }
 /*Check plat*/
+.menu-txt:hover {
+    .check {
+        animation: valid 1s ease-in-out;
+        opacity: 1;
+    }
+}
+
+@keyframes valid {
+    from {
+        
+      
+    }
+    to {
+        left: 200px;
+      
+    }
+}

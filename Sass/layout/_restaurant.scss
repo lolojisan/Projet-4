@@ -99,6 +99,12 @@
 .check {
     @include flex-center;
     background-color: $color-third;
+    position: relative;
+    top: 4px;
+    left:300px;
+    width: 50px;
+    opacity: 0;
+    
 }
 .command {
     @include flex-center;
