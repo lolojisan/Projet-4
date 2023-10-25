@@ -70,9 +70,11 @@
 }
 
 .card-menu {
+  display: flex;
+  flex-direction: column;
   background: white;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
   border-top-right-radius: 10px;
@@ -85,8 +87,6 @@
 }
 .card-menu h3 {
   margin-bottom: 5px;
-  position: relative;
-  flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -96,12 +96,18 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.card-menu .menu-price {
+.card-menu .check-box {
   display: flex;
-  justify-content: end;
-  margin-top: -20px;
+  position: relative;
+  margin-top: -65px;
   color: #353535;
   font-weight: bold;
+  left: 305px;
+  height: 100px;
+  margin-bottom: -45px;
+}
+.card-menu .check-box .menu-price {
+  margin-top: 45px;
 }
 
 .check {
@@ -109,6 +115,14 @@
   justify-content: center;
   align-items: center;
   background-color: #99E2D0;
+  color: white;
+  position: absolute;
+  left: 40px;
+  top: 0;
+  width: 62px;
+  height: 80px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .command {
@@ -503,6 +517,30 @@ footer a {
   }
 }
 /*Check plat*/
+.menu-txt:hover .check-box {
+  animation: valid 1s ease-in-out;
+  animation-fill-mode: both;
+}
+.menu-txt:hover .check-box .fa-check {
+  animation: rota 1s ease-in-out;
+}
+
+@keyframes valid {
+  from {
+    left: 305px;
+  }
+  to {
+    left: 240px;
+  }
+}
+@keyframes rota {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-720deg);
+  }
+}
 /*Exploration*/
 .explo-box {
   background-color: rgba(246, 246, 246, 0.9647058824);
