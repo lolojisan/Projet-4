@@ -154,11 +154,28 @@ span {
 }
 /*Check plat*/
 .menu-txt:hover {
+    .card-menu {
+        h3 {
+            animation: ellipse 1s ease-in-out;
+            animation-fill-mode: both;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        p {
+            animation: ellipse 1s ease-in-out;
+            animation-fill-mode: both;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
     .check-box {
         animation: valid 1s ease-in-out;
         animation-fill-mode: both;
+        animation-delay: 100ms;
             .fa-check {
-                animation: rota 1s ease-in-out;
+                animation: rota 1s ease;
             }
     }
 }
@@ -181,3 +198,12 @@ span {
         transform:rotate(-720deg)
     }
     }
+
+@keyframes ellipse {
+    from {
+        width: 331px;
+    }
+    to {
+        width: 220px;
+    }
+}

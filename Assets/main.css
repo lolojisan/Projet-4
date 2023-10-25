@@ -81,20 +81,12 @@
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .card-menu h3 {
   margin-bottom: 5px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .card-menu p {
   font-weight: 300;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .card-menu .check-box {
   display: flex;
@@ -119,7 +111,7 @@
   position: absolute;
   left: 40px;
   top: 0;
-  width: 62px;
+  width: 64px;
   height: 80px;
   margin-bottom: 0;
   margin-top: 0;
@@ -517,12 +509,27 @@ footer a {
   }
 }
 /*Check plat*/
+.menu-txt:hover .card-menu h3 {
+  animation: ellipse 1s ease-in-out;
+  animation-fill-mode: both;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.menu-txt:hover .card-menu p {
+  animation: ellipse 1s ease-in-out;
+  animation-fill-mode: both;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .menu-txt:hover .check-box {
   animation: valid 1s ease-in-out;
   animation-fill-mode: both;
+  animation-delay: 100ms;
 }
 .menu-txt:hover .check-box .fa-check {
-  animation: rota 1s ease-in-out;
+  animation: rota 1s ease;
 }
 
 @keyframes valid {
@@ -539,6 +546,14 @@ footer a {
   }
   to {
     transform: rotate(-720deg);
+  }
+}
+@keyframes ellipse {
+  from {
+    width: 331px;
+  }
+  to {
+    width: 220px;
   }
 }
 /*Exploration*/
@@ -722,6 +737,25 @@ footer a {
   .menu-content h2::after {
     width: 7.2%;
   }
+  .card-menu .check-box {
+    left: 775px;
+  }
+  @keyframes valid {
+    from {
+      left: 775px;
+    }
+    to {
+      left: 710px;
+    }
+  }
+  @keyframes ellipse {
+    from {
+      width: 331px;
+    }
+    to {
+      width: 331px;
+    }
+  }
 }
 /*Media Queries Desktop */
 @media (min-width: 1025px) and (max-width: 1920px) {
@@ -895,6 +929,28 @@ footer a {
   }
   #bottom {
     padding-bottom: 180px;
+  }
+  .card-menu .check-box {
+    left: 715px;
+  }
+  @keyframes valid {
+    from {
+      left: 715px;
+    }
+    to {
+      left: 647px;
+    }
+  }
+  @keyframes ellipse {
+    from {
+      width: 331px;
+    }
+    to {
+      width: 331px;
+    }
+  }
+  .check {
+    width: 68px;
   }
   .command {
     background: #EAEAEA;
@@ -1088,6 +1144,28 @@ footer a {
   }
   #bottom {
     padding-bottom: 180px;
+  }
+  .card-menu .check-box {
+    left: 875px;
+  }
+  @keyframes valid {
+    from {
+      left: 875px;
+    }
+    to {
+      left: 802px;
+    }
+  }
+  @keyframes ellipse {
+    from {
+      width: 331px;
+    }
+    to {
+      width: 331px;
+    }
+  }
+  .check {
+    width: 70px;
   }
   .command {
     background: #EAEAEA;

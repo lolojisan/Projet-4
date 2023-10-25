@@ -204,6 +204,28 @@
             }
         }
     }
+   .card-menu {
+    .check-box {
+        left:775px;
+    }
+   }
+   @keyframes valid {
+        from {
+        left:775px;
+        }
+        to {
+        left: 710px;
+        
+        }
+    }
+    @keyframes ellipse {
+        from {
+            width: 331px;
+        }
+        to {
+            width: 331px;
+        }
+    }
 }
 /*Media Queries Desktop */
 @media (min-width:1025px) and (max-width:1920px){
@@ -393,6 +415,31 @@
     #bottom {
         padding-bottom: 180px;
     }
+    .card-menu {
+        .check-box {
+            left:715px;
+        }
+       }
+       @keyframes valid {
+            from {
+            left:715px;
+            }
+            to {
+            left: 647px;
+            
+            }
+        }
+        @keyframes ellipse {
+            from {
+                width: 331px;
+            }
+            to {
+                width: 331px;
+            }
+        }
+        .check {
+            width: 68px;
+        }
     .command {
         background: $grey;
         margin-top: -100px;
@@ -602,6 +649,31 @@ footer {
     #bottom {
         padding-bottom: 180px;
     }
+    .card-menu {
+        .check-box {
+            left:875px;
+        }
+       }
+       @keyframes valid {
+            from {
+            left:875px;
+            }
+            to {
+            left: 802px;
+            
+            }
+        }
+        @keyframes ellipse {
+            from {
+                width: 331px;
+            }
+            to {
+                width: 331px;
+            }
+        }
+        .check {
+            width: 70px;
+        }
     .command {
         background: $grey;
         margin-top: -110px;
