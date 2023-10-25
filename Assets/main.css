@@ -1217,14 +1217,14 @@ footer a {
     padding-bottom: 180px;
   }
   .card-menu .check-box {
-    left: 970px;
+    left: 960px;
   }
   @keyframes valid {
     from {
-      left: 970px;
+      left: 960px;
     }
     to {
-      left: 900px;
+      left: 890px;
     }
   }
   @keyframes ellipse {
