@@ -10,6 +10,14 @@
   width: 100%;
   transform: scale(1.1);
 }
+.main-restaurant #enchante-img {
+  margin-top: 13px;
+  width: 390px;
+  transform: scale(1.1);
+  height: 260px;
+  object-fit: cover;
+  object-position: 0px -120px;
+}
 
 .restaurants-menu {
   display: flex;
