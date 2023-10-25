@@ -18,6 +18,14 @@
   object-fit: cover;
   object-position: 0px -120px;
 }
+.main-restaurant #delice-img {
+  margin-top: 13px;
+  width: 390px;
+  transform: scale(1.1);
+  height: 260px;
+  object-fit: cover;
+  object-position: 0px -30px;
+}
 
 .restaurants-menu {
   display: flex;
@@ -33,11 +41,13 @@
   font-family: "Shrikhand", cursive;
   padding-top: 30px;
   padding-left: 20px;
+  padding-right: 5px;
   font-size: 28px;
 }
 .restaurants-menu .heart {
   font-size: xx-large;
   padding-left: 40px;
+  padding-right: 2px;
 }
 .restaurants-menu .heart:hover {
   background: linear-gradient(#9356DC, #ff79d9);
@@ -45,6 +55,9 @@
   font-weight: bold;
   -webkit-background-clip: text;
   color: transparent;
+}
+.restaurants-menu #heart-fr {
+  padding-left: 95px;
 }
 
 .menu-content {
@@ -508,6 +521,12 @@ footer a {
   animation-fill-mode: both;
 }
 
+.show-10 {
+  animation: appear 1s ease-in-out;
+  animation-delay: 1.8s;
+  animation-fill-mode: both;
+}
+
 @keyframes appear {
   0% {
     transform: scale(0);
@@ -939,14 +958,14 @@ footer a {
     padding-bottom: 180px;
   }
   .card-menu .check-box {
-    left: 715px;
+    left: 705px;
   }
   @keyframes valid {
     from {
-      left: 715px;
+      left: 705px;
     }
     to {
-      left: 647px;
+      left: 637px;
     }
   }
   @keyframes ellipse {
@@ -1154,14 +1173,14 @@ footer a {
     padding-bottom: 180px;
   }
   .card-menu .check-box {
-    left: 875px;
+    left: 960px;
   }
   @keyframes valid {
     from {
-      left: 875px;
+      left: 960px;
     }
     to {
-      left: 802px;
+      left: 890px;
     }
   }
   @keyframes ellipse {

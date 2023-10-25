@@ -15,6 +15,14 @@
                 object-fit: cover;
                 object-position: 0px -120px;
             }
+            #delice-img {
+                margin-top: 13px;
+                width: 390px;
+                transform: scale(1.1);
+                height: 260px;
+                object-fit: cover;
+                object-position: 0px -30px;
+            }
 }
 
 .restaurants-menu {
@@ -32,6 +40,7 @@
         .heart {
             font-size: xx-large;
             padding-left: 40px;
+            padding-right: 2px;
             &:hover {
                 background: linear-gradient($color-primary,$color-secundary);
                 background-clip: text;
@@ -39,6 +48,9 @@
                 -webkit-background-clip: text;
                 color: transparent;
             }
+        }
+        #heart-fr {
+            padding-left: 95px;
         }
 }
 .menu-content {
