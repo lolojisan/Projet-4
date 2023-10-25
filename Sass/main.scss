@@ -193,6 +193,22 @@
             }
     }
     /*Pages restaurants*/
+    .main-restaurant {
+        #enchante-img {
+            transform: scale(1.1);
+            margin-top: 13px;
+            width: 1026px;
+            height: 683px;
+        }
+        #delice-img {
+            margin-top: 13px;
+            width: 1026px;
+            transform: scale(1.1);
+            height: 683px;
+            object-fit: cover;
+            object-position: 0px -30px;
+        }
+    }
     .restaurants-menu {
         justify-content: center;
     }
@@ -387,8 +403,23 @@
                 transform: scale(1);
                 object-position: 0px -400px;
             }
-        }
-    }
+            #enchante-img {
+                    transform: scale(1);
+                    margin-top: 13px;
+                    width: 1920px;
+                    height: 1280px;
+                    object-position: 0px -950px;
+            }
+            #delice-img {
+                margin-top: 13px;
+                width: 1920px;
+                transform: scale(1.1);
+                height: 1280px;
+                object-fit: cover;
+                object-position: 0px -350px;
+            }
+    }   
+}
     .restaurants-menu {
         justify-content: center;
         width: 72%;
@@ -417,15 +448,15 @@
     }
     .card-menu {
         .check-box {
-            left:705px;
+            left:715px;
         }
        }
        @keyframes valid {
             from {
-            left:705px;
+            left:715px;
             }
             to {
-            left: 637px;
+            left: 647px;
             }
         }
         @keyframes ellipse {
@@ -618,7 +649,22 @@ footer {
             height: 600px;
             img {
                 transform: scale(1);
-                object-position: 0px -400px;
+                object-position: 0px -600px;
+            }
+            #enchante-img {
+                transform: scale(1);
+                margin-top: 13px;
+                width: 2560px;
+                height: 1706px;
+                object-position: 0px -1350px;
+            }
+            #delice-img {
+                margin-top: 13px;
+                width: 2560px;
+                transform: scale(1);
+                height: 1706px;
+                object-fit: cover;
+                object-position: 0px -550px;
             }
         }
     }
@@ -650,15 +696,15 @@ footer {
     }
     .card-menu {
         .check-box {
-            left:960px;
+            left:970px;
         }
        }
        @keyframes valid {
             from {
-            left:960px;
+            left:970px;
             }
             to {
-            left: 890px;
+            left: 900px;
             
             }
         }
