@@ -24,7 +24,7 @@
 }
 
 @mixin fill-heart {
-    color:linear-gradient($color-secundary, $color-primary);
+    background:$gradient-button;
     font-weight: bold;
     cursor: pointer;
     transition: all 2s linear;

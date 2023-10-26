@@ -369,7 +369,7 @@ footer a {
 
 /*Remplissage des coeurs*/
 .fa-heart:hover {
-  color: linear-gradient(#ff79d9, #9356DC);
+  background: linear-gradient(#ff79d9, #9356DC);
   font-weight: bold;
   cursor: pointer;
   transition: all 2s linear;
