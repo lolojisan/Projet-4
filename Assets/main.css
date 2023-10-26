@@ -574,7 +574,7 @@ footer a {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(-720deg);
+    transform: rotate(-360deg);
   }
 }
 @keyframes ellipse {
