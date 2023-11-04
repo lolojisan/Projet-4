@@ -116,12 +116,13 @@
   margin-top: -65px;
   color: #353535;
   font-weight: bold;
-  left: 305px;
+  left: 93%;
   height: 100px;
   margin-bottom: -45px;
 }
 .card-menu .check-box .menu-price {
   margin-top: 45px;
+  padding-right: 5%;
 }
 
 .check {
@@ -131,9 +132,9 @@
   background-color: #99E2D0;
   color: white;
   position: absolute;
-  left: 40px;
+  left: 11%;
   top: 0;
-  width: 64px;
+  width: 20%;
   height: 80px;
   margin-bottom: 0;
   margin-top: 0;
@@ -563,10 +564,10 @@ footer a {
 
 @keyframes valid {
   from {
-    left: 305px;
+    left: 93%;
   }
   to {
-    left: 240px;
+    left: 73%;
   }
 }
 @keyframes rota {
@@ -781,14 +782,18 @@ footer a {
     width: 7.2%;
   }
   .card-menu .check-box {
-    left: 775px;
+    left: 95%;
+  }
+  .card-menu .check-box .menu-price {
+    margin-top: 45px;
+    padding-right: 5%;
   }
   @keyframes valid {
     from {
-      left: 775px;
+      left: 95%;
     }
     to {
-      left: 710px;
+      left: 71%;
     }
   }
   @keyframes ellipse {
@@ -989,14 +994,18 @@ footer a {
     padding-bottom: 180px;
   }
   .card-menu .check-box {
-    left: 96%;
+    left: 91%;
+  }
+  .card-menu .check-box .menu-price {
+    margin-top: 45px;
+    margin-left: 5%;
   }
   @keyframes valid {
     from {
-      left: 96%;
+      left: 91%;
     }
     to {
-      left: 87%;
+      left: 76%;
     }
   }
   @keyframes ellipse {
@@ -1008,7 +1017,7 @@ footer a {
     }
   }
   .check {
-    width: 68px;
+    width: 15%;
   }
   .command {
     background: #EAEAEA;
@@ -1219,14 +1228,14 @@ footer a {
     padding-bottom: 180px;
   }
   .card-menu .check-box {
-    left: 960px;
+    left: 97%;
   }
   @keyframes valid {
     from {
-      left: 960px;
+      left: 97%;
     }
     to {
-      left: 890px;
+      left: 75%;
     }
   }
   @keyframes ellipse {
@@ -1238,7 +1247,7 @@ footer a {
     }
   }
   .check {
-    width: 70px;
+    width: 15%;
   }
   .command {
     background: #EAEAEA;

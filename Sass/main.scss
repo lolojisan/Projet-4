@@ -222,15 +222,21 @@
     }
    .card-menu {
     .check-box {
-        left:775px;
+        left:95%;
+        
+            .menu-price {
+                margin-top: 45px;
+                padding-right: 5%;
+            
+        }
     }
    }
    @keyframes valid {
         from {
-        left:775px;
+        left:95%;
         }
         to {
-        left: 710px;
+        left: 71%;
         
         }
     }
@@ -447,16 +453,21 @@
         padding-bottom: 180px;
     }
     .card-menu {
+
         .check-box {
-            left:96%;
+            left:91%;
+            .menu-price {
+                margin-top: 45px;
+                margin-left: 5%;
+            }
         }
        }
        @keyframes valid {
             from {
-            left:96%;
+            left:91%;
             }
             to {
-            left:87%;
+            left:76%;
             }
         }
         @keyframes ellipse {
@@ -468,7 +479,7 @@
             }
         }
         .check {
-            width: 68px;
+            width: 15%;
         }
     .command {
         background: $grey;
@@ -696,15 +707,15 @@ footer {
     }
     .card-menu {
         .check-box {
-            left:960px;
+            left:97%;
         }
        }
        @keyframes valid {
             from {
-            left:960px;
+            left:97%;
             }
             to {
-            left: 890px;
+            left: 75%;
             
             }
         }
@@ -717,7 +728,7 @@ footer {
             }
         }
         .check {
-            width: 70px;
+            width: 15%;
         }
     .command {
         background: $grey;
