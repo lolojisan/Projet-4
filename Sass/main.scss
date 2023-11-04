@@ -455,16 +455,16 @@
     .card-menu {
 
         .check-box {
-            left:91%;
+            left:92%;
             .menu-price {
                 margin-top: 45px;
-                margin-left: 5%;
+                margin-left: 2%;
             }
         }
        }
        @keyframes valid {
             from {
-            left:91%;
+            left:92%;
             }
             to {
             left:76%;
@@ -479,7 +479,7 @@
             }
         }
         .check {
-            width: 15%;
+            width: 17%;
         }
     .command {
         background: $grey;
@@ -715,7 +715,7 @@ footer {
             left:97%;
             }
             to {
-            left: 75%;
+            left: 74%;
             
             }
         }
@@ -728,7 +728,7 @@ footer {
             }
         }
         .check {
-            width: 15%;
+            width: 17%;
         }
     .command {
         background: $grey;

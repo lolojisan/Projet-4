@@ -994,15 +994,15 @@ footer a {
     padding-bottom: 180px;
   }
   .card-menu .check-box {
-    left: 91%;
+    left: 92%;
   }
   .card-menu .check-box .menu-price {
     margin-top: 45px;
-    margin-left: 5%;
+    margin-left: 2%;
   }
   @keyframes valid {
     from {
-      left: 91%;
+      left: 92%;
     }
     to {
       left: 76%;
@@ -1017,7 +1017,7 @@ footer a {
     }
   }
   .check {
-    width: 15%;
+    width: 17%;
   }
   .command {
     background: #EAEAEA;
@@ -1235,7 +1235,7 @@ footer a {
       left: 97%;
     }
     to {
-      left: 75%;
+      left: 74%;
     }
   }
   @keyframes ellipse {
@@ -1247,7 +1247,7 @@ footer a {
     }
   }
   .check {
-    width: 15%;
+    width: 17%;
   }
   .command {
     background: #EAEAEA;
